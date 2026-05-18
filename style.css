@@ -250,6 +250,13 @@ section {
 }
 .photo-icon { font-size: 2.5rem; margin-bottom: 0.5rem; opacity: 0.3; }
 
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
 /* ── SKILLS ── */
 .skills-grid {
   display: grid;
@@ -460,17 +467,4 @@ footer p {
   .about-grid { grid-template-columns: 1fr; }
   .contact-wrap { grid-template-columns: 1fr; }
   .hero-cta { flex-direction: column; }
-}
-
-.about-photo {
-  aspect-ratio: 3/4;
-  border-radius: 16px;
-  overflow: hidden;
-}
-
-.about-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
 }
