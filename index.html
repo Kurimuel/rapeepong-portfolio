@@ -271,7 +271,9 @@
       </div>
       <div class="project-body">
         <h3 class="project-title">Weather Data Pipeline</h3>
-        <p class="project-desc">Analyzed sentiment distribution and persona understanding from Facebook AI PersonaChat dataset. Used VADER for sentiment analysis, TF-IDF for keyword extraction, and Logistic Regression for persona prediction.</p>
+        <p class="project-desc">Built and deployed an automated data pipeline that collects weather data from 12 cities worldwide every hour. The pipeline performs data validation before storing the data in PostgreSQL, 
+          then synchronizes it with BigQuery for analytics. I also implemented a basic vector similarity search feature. The entire pipeline is deployed and currently runs automatically in production. 
+          During development, I encountered and resolved several real-world issues, including timezone-related bugs, PostgreSQL sequence behavior, and BigQuery schema mismatches.</p>
         <div class="project-tech">
           <span class="skill-tag">Python</span>
           <span class="skill-tag">VADER</span>
